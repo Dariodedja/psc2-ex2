@@ -1,1 +1,4 @@
 # psc2-ex2
+We wanted to make an experiment to verify what method was faster between quicksort and mergesort.To do this,we used the most precise method we have learned up until now on python called "Timeit".We first started by creating a "mergesort" function and a "quicksort" function in two separate files.After that,we created another file which we named "timeitprog".We imported the functions from the other files and used the timeit method to measure them on different lists's ranges and lengths.The results we got were:
+1)Quicksort is significantly faster then Mergesort for many versions of our lists.
+2)The only times when Mergesort was faster then Quicksort is when the length of the list was much bigger then the range of the same list.(for example 1000 and 10).The conclusion we got from this experiment was that Quicksort is generally faster then the counterpart,but Mergesort is faster when we have to deal with big lists of intigers but tiny ranges of action.
