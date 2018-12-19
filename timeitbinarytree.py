@@ -1,4 +1,3 @@
-import binarytree
 import random
 from timeit import Timer
 
